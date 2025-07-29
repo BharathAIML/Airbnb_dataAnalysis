@@ -62,18 +62,21 @@ These findings offer actionable direction for marketing, pricing, and host onboa
 ## 📁 Dataset
 The analysis is based on the "Airbnb_data.csv.zip" dataset, which contains detailed listing, host, review, and availability data for Airbnb properties in New York City.
 
-## 📚 Category 1: Host Activity & Performance
+## 🏙️ Category 1: Location Performance
 
 ![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
 
-Insight 1: Verified hosts received 22% more reviews on average and had 16% more annual availability than unverified hosts.
+Insight 1:
+Manhattan dominates Airbnb listings with over 20,000 listings, followed by Brooklyn (~18,000). Together, they account for >80% of all NYC listings from 2008 to 2019, indicating high tourist activity in these boroughs.
 
-Insight 2: Hosts with more than 3 listings tend to price their properties higher but receive fewer reviews per listing.
+Insight 2:
+The top neighborhoods with the most listings include Williamsburg (~3,900), Harlem (~3,200), and Bedford-Stuyvesant (~2,900), showing strong hosting activity in both upscale and gentrifying areas.
 
-Insight 3: Hosts located in Manhattan and Brooklyn dominate the listing count, but the review-per-month rate has stagnated in recent months.
+Insight 3:
+Despite high listing density, the average price in Manhattan is significantly higher (~$180–$220) compared to Queens or the Bronx (~$90–$120), suggesting a premium placed on central location.
 
-Insight 4: Listings without a verified identity had a higher incidence of missing license and house rule data.
-
+Insight 4:
+Brooklyn and Queens listings show higher availability across the year, potentially due to more long-term hosts or less seasonal demand compared to Manhattan.
 
 ##  📘 Category 2: Listing Availability & Reviews
 
