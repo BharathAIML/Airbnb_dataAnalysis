@@ -48,7 +48,7 @@ From the dataset, three key trends emerged:
 
 Neighborhood Dominance with Signs of Saturation: Manhattan and Brooklyn account for the majority of listings, indicating a high market share but also showing early signs of oversupply in some areas.
 
-![App Screenshot](https://drive.google.com/file/d/1uIFMfOLx0JOLF5Dgf8R5I88DoIeMNHZj/view?usp=sharing)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/d483067423bffba0e3a542f7419821f232e0dcf2/AVG.png)
 
 Shifting Price and Engagement Trends Over Time: While average prices have shown fluctuations across years, engagement (measured by review rates) peaked during the pandemic recovery and then gradually declined.
 
