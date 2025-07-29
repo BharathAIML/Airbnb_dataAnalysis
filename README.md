@@ -78,43 +78,54 @@ Despite high listing density, the average price in Manhattan is significantly hi
 Insight 4:
 Brooklyn and Queens listings show higher availability across the year, potentially due to more long-term hosts or less seasonal demand compared to Manhattan.
 
-##  📘 Category 2: Listing Availability & Reviews
+##  💰 Category 2: Price Trends & Distribution
 
 ![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
 
-Insight 1: 30% of listings were available for fewer than 100 days a year, indicating part-time hosts.
+Insight 1:
+The average listing price across NYC is ~$152, but varies drastically: Entire homes average ~$212, private rooms ~$95, and shared rooms ~$65.
 
-Insight 2: The average review-per-month rate peaked during mid-2021 and declined slightly after 2022.
+Insight 2:
+Outliers above $1,000 per night skew the price distribution. When capped at $500, the average price stabilizes and offers a clearer view of the central trend.
 
-Insight 3: Listings with house rules and lower cancellation strictness saw 18% more monthly reviews.
+Insight 3:
+Queens and the Bronx are budget-friendly zones, with 80% of listings priced under $100, making them attractive for longer stays or low-budget travelers.
 
-Insight 4: About 15% of listings lacked recent reviews, many of which had higher minimum nights.
+Insight 4:
+Listings with high service fees (>$100) typically belong to luxury properties or professional hosts, especially in Manhattan and high-rise buildings.
 
+##  📅 Category 3: Availability & Booking Behavior
 
-##  📙 Category 3: Pricing & Service Fees
-![App Screenshot](https://drive.google.com/file/d/1_NPhSpIC3_BGbIw5x-7bL22fo-goyqN0/view?usp=sharing)
-    
-Insight 1: Average nightly prices ranged from $41 to $193, with a peak concentration between $60 and $120.
+![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
 
-Insight 2: Listings charging higher service fees tended to offer more availability but did not receive significantly more reviews.
+Insight 1:
+35% of listings are available year-round (365 days), suggesting commercial use. The remaining listings vary widely — with spikes at 0 (inactive) and 180 (seasonal).
 
-Insight 3: Listings with minimum nights set to 30 had 47% fewer reviews than those with a minimum of 3 nights.
+Insight 2:
+Listings with availability less than 30 days/year often correlate with high prices and low review counts, hinting at either seasonal use or listings inactive during much of the year.
 
-Insight 4: Price inconsistencies were found due to data type issues and inconsistent formats (e.g., dollar symbols in strings).
+Insight 3:
+The minimum nights requirement shows a median of 3 nights, but some listings require >30 nights, which may align with NYC’s short-term rental regulations.
 
+Insight 4:
+Entire apartments/homes show higher minimum stays (~5+ nights) compared to shared/private rooms (~2–3 nights), reflecting booking policies or target guest behavior.
 
+##  🧑‍💼 Category 4: Host & Listing Characteristics
 
+![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
 
-##  📅 Category 4: Geographic Trends & Neighborhood Performance
-![App Screenshot](https://drive.google.com/file/d/1kmeHRe4o3BlTBZe8c_DO4AsVRMKLW-WS/view?usp=sharing)
+Insight 1:
+Over 40% of hosts have more than one listing, indicating many are professional or commercial hosts rather than individual owners.
 
-Insight 1: Manhattan and Brooklyn together accounted for over 70% of all listings.
+Insight 2:
+Hosts with 10+ listings are mainly concentrated in Brooklyn and Manhattan, where Airbnb has evolved into a business model.
 
-Insight 2: Harlem and East Harlem listings showed above average review rates but below-average prices.
+Insight 3:
+Listings with the highest number of reviews (~500+) tend to be private rooms priced below $100 — indicating popularity among solo or budget travelers.
 
-Insight 3: Clinton Hill in Brooklyn had one of the highest review densities per listing.
+Insight 4:
+Review scores (not shown in dataset) could be further integrated to analyze sentiment or satisfaction trends if merged with other Airbnb review data.
 
-Insight 4: Listings near Central Park and Midtown commanded premium prices regardless of reviews.
 ## ✅ Recommendations:
 
 For the Host Onboarding Team: Encourage new hosts to verify their identities and set flexible minimum nights (3-7) to improve review rates.
@@ -126,7 +137,6 @@ For the Marketing Team: Focus promotions on Harlem and East Harlem to capitalize
 For the Data Quality Team: Normalize price and service fee fields to consistent numerical formats. Flag listings with missing values for follow-up.
 
 For the Product Team: Introduce dashboards or alerts for hosts whose listings are trending down in availability or reviews.
-
 
 ## ⚠️ Assumptions: 
 Missing country records were assumed to be in the United States based on neighborhood fields and were re-coded accordingly.
