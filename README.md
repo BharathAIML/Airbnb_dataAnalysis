@@ -43,7 +43,7 @@ Table 4: Availability - Calendar and availability data for each listing
 
 From the dataset, three key trends emerged:
 
-![App Screenshot](https://drive.google.com/file/d/1uIFMfOLx0JOLF5Dgf8R5I88DoIeMNHZj/view?usp=sharing)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/471cc55ce2433eea600df376fc94e0bb39aaa994/neighb%20.png)
 
 
 Neighborhood Dominance with Signs of Saturation: Manhattan and Brooklyn account for the majority of listings, indicating a high market share but also showing early signs of oversupply in some areas.
