@@ -24,7 +24,7 @@ Category 4: Geographic Trends & Neighborhood Performance
 
 ## 🧱 Data Structure & Initial Checks
 
-![App Screenshot](https://drive.google.com/file/d/1uIFMfOLx0JOLF5Dgf8R5I88DoIeMNHZj/view?usp=sharing)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/4c729e2b531c56a729bc6e9a1543b6dc08e7a422/ERD_1.png)
 
 The company’s main database structure as seen below consists of four tables with a total of 102,599 records:
 
