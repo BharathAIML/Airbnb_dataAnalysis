@@ -52,7 +52,7 @@ Neighborhood Dominance with Signs of Saturation: Manhattan and Brooklyn account 
 
 Shifting Price and Engagement Trends Over Time: While average prices have shown fluctuations across years, engagement (measured by review rates) peaked during the pandemic recovery and then gradually declined.
 
-![App Screenshot](https://drive.google.com/file/d/1uIFMfOLx0JOLF5Dgf8R5I88DoIeMNHZj/view?usp=sharing)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/5b9fb51ae6e93da819ac5ff61cd975c983cfef86/PVR.png)
 
 
 Availability-Price Sweet Spots: Listings priced in the mid-range with moderate availability and lower minimum stay requirements tend to receive the most consistent review volume.
