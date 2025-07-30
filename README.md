@@ -98,7 +98,7 @@ Room type directly correlates with price, where entire homes are more expensive 
 
 ## 📍 Category 3: Location-Based Price & Availability
 
-[!App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/f905b3b94bb953f176993393ffffbb9178f6a094/top.png)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/bb21525eee9bf5eae18ef806b9ac4faeb8ad07c8/top.png)
 
 Insight 1:
 Some neighborhoods like Williamsburg (Brooklyn) and Harlem (Manhattan) show high listing density. This was shown through neighbourhood.value_counts().head(10)
