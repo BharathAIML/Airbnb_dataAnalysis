@@ -114,6 +114,8 @@ Listings with extremely high availability_365 might be owned by professional hos
 
 ##  💬 Category 4: Review Activity & Engagement
 
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/93517a9a9846f13e1282416138fca64c1dcfbed3/Screenshot%20(29).png)
+
 Insight 1:
 Most listings have a low number of reviews, as shown in the review distribution plot.
 
