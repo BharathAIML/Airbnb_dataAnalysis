@@ -82,6 +82,8 @@ The groupby aggregation showed average prices are highest in Manhattan, reinforc
 
 ##  🛏️ Category 2: Room Type & Price Insights
 
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/a55d9fdaae82da780ac4fe1b78ece3c0fac6e21f/boxplot.png)
+
 Insight 1:
 Entire home/apartment is the most common room type, followed by private rooms. Entire homes are the preferred option for tourists and families.
 
