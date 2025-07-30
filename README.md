@@ -64,7 +64,7 @@ The analysis is based on the "Airbnb_data.csv.zip" dataset, which contains detai
 
 ## 🏙️ Category 1: Neighbourhood Group Insights
 
-![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/5b9fb51ae6e93da819ac5ff61cd975c983cfef86/PVR.png)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/3864c37ebcf69f577641a243d7cf7faa43c6faf1/listings.png)
 
 Insight 1:
 The majority of listings are concentrated in Manhattan and Brooklyn, together contributing to the largest share of Airbnb properties in NYC.
