@@ -62,69 +62,65 @@ These findings offer actionable direction for marketing, pricing, and host onboa
 ## 📁 Dataset
 The analysis is based on the "Airbnb_data.csv.zip" dataset, which contains detailed listing, host, review, and availability data for Airbnb properties in New York City.
 
-## 🏙️ Category 1: Location Performance
+## 🏙️ Category 1: Neighbourhood Group Insights
 
-![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
-
-Insight 1:
-Manhattan dominates Airbnb listings with over 20,000 listings, followed by Brooklyn (~18,000). Together, they account for >80% of all NYC listings from 2008 to 2019, indicating high tourist activity in these boroughs.
-
-Insight 2:
-The top neighborhoods with the most listings include Williamsburg (~3,900), Harlem (~3,200), and Bedford-Stuyvesant (~2,900), showing strong hosting activity in both upscale and gentrifying areas.
-
-Insight 3:
-Despite high listing density, the average price in Manhattan is significantly higher (~$180–$220) compared to Queens or the Bronx (~$90–$120), suggesting a premium placed on central location.
-
-Insight 4:
-Brooklyn and Queens listings show higher availability across the year, potentially due to more long-term hosts or less seasonal demand compared to Manhattan.
-
-##  💰 Category 2: Price Trends & Distribution
-
-![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
+![App Screenshot](https://github.com/BharathAIML/Airbnb_dataAnalysis/blob/5b9fb51ae6e93da819ac5ff61cd975c983cfef86/PVR.png)
 
 Insight 1:
-The average listing price across NYC is ~$152, but varies drastically: Entire homes average ~$212, private rooms ~$95, and shared rooms ~$65.
+The majority of listings are concentrated in Manhattan and Brooklyn, together contributing to the largest share of Airbnb properties in NYC.
+This was shown through both value_counts() and a barplot. Manhattan leads, suggesting high tourist and business activity.
 
 Insight 2:
-Outliers above $1,000 per night skew the price distribution. When capped at $500, the average price stabilizes and offers a clearer view of the central trend.
+Despite having fewer listings, Queens and Bronx offer more budget-friendly options compared to Manhattan.
+This suggests price-sensitive customers or long-term renters might prefer these boroughs.
 
 Insight 3:
-Queens and the Bronx are budget-friendly zones, with 80% of listings priced under $100, making them attractive for longer stays or low-budget travelers.
+Staten Island has the fewest listings, indicating low Airbnb activity. Could be due to limited tourist infrastructure or lower demand.
 
 Insight 4:
-Listings with high service fees (>$100) typically belong to luxury properties or professional hosts, especially in Manhattan and high-rise buildings.
+The groupby aggregation showed average prices are highest in Manhattan, reinforcing its premium market positioning.
 
-##  📅 Category 3: Availability & Booking Behavior
-
-![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
+##  🛏️ Category 2: Room Type & Price Insights
 
 Insight 1:
-35% of listings are available year-round (365 days), suggesting commercial use. The remaining listings vary widely — with spikes at 0 (inactive) and 180 (seasonal).
+Entire home/apartment is the most common room type, followed by private rooms. Entire homes are the preferred option for tourists and families.
 
 Insight 2:
-Listings with availability less than 30 days/year often correlate with high prices and low review counts, hinting at either seasonal use or listings inactive during much of the year.
+Shared rooms and hotel rooms form a small portion of listings, showing limited demand or supply.
 
 Insight 3:
-The minimum nights requirement shows a median of 3 nights, but some listings require >30 nights, which may align with NYC’s short-term rental regulations.
+Price distribution is right-skewed, with many listings priced under $500 but a few outliers pushing prices much higher. You used a boxplot to detect outliers and cleaned price > $500.
 
 Insight 4:
-Entire apartments/homes show higher minimum stays (~5+ nights) compared to shared/private rooms (~2–3 nights), reflecting booking policies or target guest behavior.
+Room type directly correlates with price, where entire homes are more expensive than private/shared rooms.
 
-##  🧑‍💼 Category 4: Host & Listing Characteristics
-
-![App Screenshot](https://drive.google.com/file/d/1hFKDOQb6eb-8R_xnENbZNfIRKe05urui/view?usp=sharing)
+## 📍 Category 3: Location-Based Price & Availability
 
 Insight 1:
-Over 40% of hosts have more than one listing, indicating many are professional or commercial hosts rather than individual owners.
+Some neighborhoods like Williamsburg (Brooklyn) and Harlem (Manhattan) show high listing density. This was shown through neighbourhood.value_counts().head(10)
 
 Insight 2:
-Hosts with 10+ listings are mainly concentrated in Brooklyn and Manhattan, where Airbnb has evolved into a business model.
+The scatterplot of longitude vs latitude colored by price reveals hotspots of expensive listings concentrated in central Manhattan.
 
 Insight 3:
-Listings with the highest number of reviews (~500+) tend to be private rooms priced below $100 — indicating popularity among solo or budget travelers.
+Correlation heatmap shows number_of_reviews, reviews_per_month, and availability_365 are weakly correlated with price.
 
 Insight 4:
-Review scores (not shown in dataset) could be further integrated to analyze sentiment or satisfaction trends if merged with other Airbnb review data.
+Listings with extremely high availability_365 might be owned by professional hosts or businesses.
+
+##  💬 Category 4: Review Activity & Engagement
+
+Insight 1:
+Most listings have a low number of reviews, as shown in the review distribution plot.
+
+Insight 2:
+There are many listings with 0 reviews, possibly new or inactive. This affects visibility and trust.
+
+Insight 3:
+reviews_per_month is higher for private rooms, suggesting higher guest turnover.
+
+Insight 4:
+Review count does not strongly correlate with price but may influence booking frequency.
 
 ## ✅ Recommendations:
 
